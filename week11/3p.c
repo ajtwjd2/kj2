@@ -21,13 +21,13 @@ int main(void)
     int n = 5;
     int percent;
 
-    printf("ÇÒÀÎÀ²(%%)À» ÀÔ·ÂÇÏ½Ã¿À : ");
+    printf("í• ì¸ìœ¨(%%)ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
     scanf_s("%d", &percent);
 
-    print_prices("ÇÒÀÎ Àü", prices, n);
+    print_prices("í• ì¸ ì „", prices, n);
     apply_discount(prices, n, percent);
-    print_prices("ÇÒÀÎ ÈÄ", prices, n);
-    printf("main ¹è¿­ È®ÀÎ : prices[0] = %d\n", prices[0]);
+    print_prices("í• ì¸ í›„", prices, n);
+    printf("main ë°°ì—´ í™•ì¸ : prices[0] = %d\n", prices[0]);
 
     return 0;
 }
