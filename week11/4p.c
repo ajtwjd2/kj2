@@ -11,12 +11,12 @@ int main(void)
     int total;
     int h, m, s;
 
-    printf("ÃÑ ½Ã°£(ÃÊ)À» ÀÔ·ÂÇÏ½Ã¿À : ");
+    printf("ì´ ì‹œê°„(ì´ˆ)ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
     scanf_s("%d", &total);
 
     to_hms(total, &h, &m, &s);
 
-    printf("%d½Ã°£ %dºĞ %dÃÊ\n", h, m, s);
+    printf("%dì‹œê°„ %dë¶„ %dì´ˆ\n", h, m, s);
 
     return 0;
 }
